@@ -1,0 +1,11 @@
+<div class="header-container">
+  <div class="left">
+    <img src="../../assets/logo.svg" alt="logo" class="logo" />
+    <div class="menu-container">
+      <ng-container *ngFor="let menu of submenu">
+        <span class="submenu">{{ menu }}</span>
+      </ng-container>
+    </div>
+  </div>
+  <button class="request-btn">{{ Label.btn }}</button>
+</div>
