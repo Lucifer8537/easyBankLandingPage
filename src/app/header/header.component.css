@@ -59,3 +59,13 @@
     }
   }
 }
+@media (max-width: 678px) {
+  .header-container {
+    padding: 6% 6%;
+    justify-content: space-between;
+  }
+  .logo {
+    height: auto;
+    width: 43%;
+  }
+}
