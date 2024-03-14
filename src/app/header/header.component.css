@@ -68,4 +68,8 @@
     height: auto;
     width: 43%;
   }
+  .custom-backdrop {
+    backdrop-filter: none !important;
+    background-color: transparent !important;
+  }
 }

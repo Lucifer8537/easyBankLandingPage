@@ -10,6 +10,7 @@
 
   <button *ngIf="!mobileView" class="request-btn">{{ Label.btn }}</button>
   <img
+    *ngIf="mobileView"
     src="{{ icon }}"
     alt="icon-hamburger"
     class="hamburger"

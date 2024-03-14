@@ -7,7 +7,10 @@ import {
   MatDialogTitle,
   MatDialogContent,
 } from '@angular/material/dialog';
-import { MenuDialogComponent } from './menu-dialog/menu-dialog.component';
+import {
+  MenuDialogComponent,
+  menuDialogInput,
+} from './menu-dialog/menu-dialog.component';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -32,8 +35,18 @@ export class HeaderComponent implements OnInit {
   onClickMobileMenu = () => {
     this.iconHandle();
     if (this.menu) {
+      const menuInput: menuDialogInput = { menu: this.submenu };
       this.dialog
-        .open(MenuDialogComponent)
+        .open(MenuDialogComponent, {
+          data: menuInput,
+          backdropClass: 'custom-backdrop',
+          position: {
+            top: '23%',
+            left: '6%',
+          },
+          width: '88%',
+          maxWidth: '90vw',
+        })
         .afterClosed()
         .subscribe((res) => this.iconHandle());
     }
