@@ -3,6 +3,9 @@
   padding: 0 11.5%;
   align-items: center;
   font-family: "PublicSans";
+  position: relative;
+  z-index: 2;
+  background: white;
 }
 .logo {
   width: 146px;

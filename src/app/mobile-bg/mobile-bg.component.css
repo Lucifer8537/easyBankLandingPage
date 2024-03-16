@@ -1,0 +1,63 @@
+.next-gen-container {
+  padding: 180px 0% 12% 11.5%;
+  font-family: "PublicSans";
+  max-width: 470px;
+}
+.title-next-gen {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  color: hsl(233, 26%, 24%);
+}
+.context-next-gen {
+  font-size: 18px;
+  font-weight: 500;
+  word-spacing: -1px;
+  line-height: 30px;
+  margin-bottom: 35px;
+  color: hsl(233, 8%, 62%);
+}
+.btn-request {
+  font-family: "PublicSans";
+  color: white;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border: none;
+  font-size: 15px;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-weight: 600;
+  width: fit-content;
+}
+@media (max-width: 679px) {
+  .next-gen-container {
+    padding: 11% 0% 0% 0%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .title-next-gen {
+    font-size: 38px;
+    margin-bottom: 4%;
+  }
+  .context-next-gen {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 7%;
+    color: hsl(233, 8%, 62%);
+  }
+}
+@media (min-width: 678px) {
+  .btn-request {
+    cursor: pointer;
+  }
+  .btn-request:hover {
+    opacity: 0.5;
+  }
+  .mobile-top {
+    background: url("../../assets/bg-intro-desktop.svg") 432% 67%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position: relative;
+  }
+}

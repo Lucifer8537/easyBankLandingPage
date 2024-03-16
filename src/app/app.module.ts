@@ -7,9 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuDialogComponent } from './header/menu-dialog/menu-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MobileBgComponent } from './mobile-bg/mobile-bg.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, MenuDialogComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    MenuDialogComponent,
+    MobileBgComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
