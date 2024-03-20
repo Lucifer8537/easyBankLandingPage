@@ -60,19 +60,22 @@
 .feature {
   width: 266px;
   display: grid;
+  height: fit-content;
 }
 .feature-img {
   width: 75px;
-  margin-bottom: 40px;
+  margin-bottom: 49px;
 }
 .feature-title {
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 23px;
+  margin-bottom: 32px;
+  column-rule: hsl(233, 26%, 24%);
 }
 .feature-context {
   font-size: 17px;
   line-height: 1.6em;
+  color: hsl(233, 8%, 62%);
 }
 @media (max-width: 679px) {
   .next-gen-container {
@@ -90,6 +93,25 @@
     line-height: 28px;
     margin-bottom: 7%;
     color: hsl(233, 8%, 62%);
+  }
+  .mobile-top {
+    margin-bottom: 23%;
+  }
+  .mobile-bottom {
+    padding: 17.2% 7%;
+  }
+  .easy-bank-container {
+    max-width: 100%;
+  }
+  .easy-bank-title {
+    font-size: 215%;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  .easy-bank-content {
+    text-align: center;
+    font-size: 102%;
+    line-height: 1.6em;
   }
 }
 @media (min-width: 678px) {

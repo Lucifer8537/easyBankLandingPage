@@ -35,7 +35,7 @@ export class MobileBgComponent {
     },
     {
       imgSrc: '../../assets/icon-api.svg',
-      title: 'OpenAPI',
+      title: 'Open API',
       context:
         'Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.',
     },
